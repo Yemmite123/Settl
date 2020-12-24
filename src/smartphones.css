@@ -78,15 +78,18 @@ and (max-device-width : 480px) {
 .core_services_heading > p{
     width: 100%;
     height: 100%;
+    padding-right: 6%;
 }
 
 .agent_banking > h1{
     width: 100%;
     height: 100%;
+    font-size: 32px;
 }
 .agent_banking > p{
     width: 100%;
     height: 100%;
+    padding-right: 6%;
 }
 
 .agent_banking_img{
@@ -131,6 +134,7 @@ and (max-device-width : 480px) {
     height: 100%;
     left: 0px;
     top: 0px;
+    padding-right: 6%;
   }
 
 .settl_card > h1{
@@ -138,6 +142,7 @@ and (max-device-width : 480px) {
     height: 100%;
     left: 0px;
     top: 0px;
+    padding-right: 6%;
 }
 
 .settl_card > p{
@@ -145,6 +150,7 @@ and (max-device-width : 480px) {
     height: 100%;
     left: 0px;
     top: 0px;
+    padding-right: 6%;
 }
 .hand_card{
     width: 90%;
@@ -179,7 +185,8 @@ and (max-device-width : 480px) {
 .card_heading > p{
     width: 100%;
     height: 100%;
-    margin-left: -5%;
+    margin-left: -3%;
+    padding-right: 6%;
 }
 
 #card_dis {
@@ -191,12 +198,16 @@ and (max-device-width : 480px) {
 #container_top{
     margin-top: -45%;
 }
+.card_content > p{
+    width: 95%;
+}
 
 .footer_section > p{
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
+    
 }
 .footer_section > ul {
     display: inline-flex;

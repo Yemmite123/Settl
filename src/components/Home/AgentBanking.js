@@ -16,7 +16,7 @@ const AgentBanking = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="agent_banking_img">
-                                <img src="images/banking.svg" alt="banking"/>
+                                <img className="img-fluid" src="images/banking.png" alt="banking"/>
                             </div>
                         </div>
                     </div>
