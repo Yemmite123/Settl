@@ -6,7 +6,7 @@ const SettlWallets = () => {
         <div className="view">
             <div id="page1_spacing" className="container-fluid">
             <ScrollAnimation  animateIn="fadeInUp" animateOnce={true} delay={100}>
-                <div className="row row_top2">
+                <div className="row row_top2 mobile_row">
                     <div className="col-md-6">
                         <div className="fast_trans">
                          <img src="images/Wallets page.svg" alt="primary wallet"/>

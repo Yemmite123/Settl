@@ -25,7 +25,7 @@ export class HeroSection extends Component {
                       </div>
                     <div className="hero_heading">
                       <h1>Move your money freely</h1>
-                      <p>From your spending, to planning for your future with money,  We help you get more from your money.</p>
+                      <p>From spending on daily needs to saving for the future, Settl helps you move and manage your money without stress. </p>
                       <button onClick={this.toggle}>Get Early Update</button>
                     </div>
                 </div>
@@ -59,8 +59,13 @@ export class HeroSection extends Component {
             </div>
 
             <div className="group">
-              <input type="tel" placeholder="Phone Number" id="Phone Number" required/>
+              <input type="number" placeholder="Phone Number" id="Phone Number" required/>
               <label htmlFor="phone">Phone Number</label>
+            </div>
+
+            <div className="group">
+              <input type="email" placeholder="Email Address" id="Email" required/>
+              <label htmlFor="phone">Email Address</label>
             </div>
             <div className="group">
              <button type="submit">Get lunch invite</button>

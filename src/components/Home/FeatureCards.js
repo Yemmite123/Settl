@@ -11,7 +11,7 @@ const FeatureCards = () => {
                             <div className="col-md-12">
                             <div className="text-center card_heading">
                                 <h1>We’re making sure everything is in place</h1>
-                                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
+                                <p>Welcome to a better kind of mobile banking experience.</p>
                             </div>
                             </div>
                         </div>

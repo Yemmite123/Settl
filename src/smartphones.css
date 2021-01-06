@@ -9,48 +9,133 @@ and (max-device-width : 480px) {
  } */
 
  .row_top{
-    margin-top: 40%;
+    margin-top: 38%;
+    margin-left: 4%;
 }
-.hero_heading > h1{
-    width: 100%;
-    height: 100%;
+
+#HeroSection{
+    background-image: url('images/Full Bg.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    height: 960px;
     left: 0px;
     top: 0px;
+  }
+  .new > button{
+    width: 41.55px;
+    height: 20.03px;
+    left: 18.48px;
+    top: 154.48px;  
     font-family: Euclid Circular A;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
-    line-height: 76px;
+    font-size: 8px;
+    line-height: 15px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.192903px;  
+  }
+.coming_soon{
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 15px;
+    /* or 185% */
+    letter-spacing: 0.192903px;
+    color: #AC8BD3;
+  }
+  .hero_contents{
+    width: 36%;
+    height: 23px;
+  }
+.hero_heading > h1{
+    width: 80%;
+    height: 100%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34.7407px;
+    line-height: 41px;
+    /* or 119% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.198519px;
+    color: #4F1699;
 }
 .hero_heading > p{
     width: 90%;
     height: 100%;
     left: 0px;
     top: 0px;
-}
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    
+    color: #000000;
+}    
 .hero_img > img{
     margin-top: 0%;
-    margin-left: 0%;
+    margin-left: -2%;
+    /* margin-right: -10%; */
     width: 100%;
  }
  .hero_heading > button{
-    width: 90%;
+    width: 183px;
+    height: 40px;
  }
 
  .core_services > h1{
     width: 100%;
     height: 100%;
     margin-left: -6%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    /* or 143% */
+    text-align: center;
+    letter-spacing: -0.24px;
+    margin-left: 0%;
+    color: #4F1699;
 }
 
 .core_services > p{
     width: 90%;
     height: 100%;
     letter-spacing: 0.24px;
-     margin-right: 10%;
+    margin-right: 10%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #181818;
+    margin-left: 4%;
+}
+
+.row_top2{
+    margin-top: 0%;
+} 
+.mobile_row{
+  flex-direction: column-reverse;
 }
 .core_services > img {
     margin-left: -6%;
+}
+
+.core_services{
+    margin-top: 5%;
 }
 
 .fast_trans{
@@ -68,92 +153,260 @@ and (max-device-width : 480px) {
 
   .social_friend{
     float: right;
-    margin-top: -92%;
+    margin-top: -100%;
     margin-right: 0%;
 }
 .social_friend > img{
     float: right;
     width: 78%;
 }
+
+.core_services_mobile{
+    text-align:center
+}
+
+.core_services_heading{
+    margin-top: 20%;
+    /* margin-right: auto; */
+}
+
+.core_services_heading  > div > button{
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    margin: auto;
+    letter-spacing: 1.26px;
+    margin-bottom: 2%;
+ 
+}
 .core_services_heading > p{
     width: 100%;
     height: 100%;
     padding-right: 6%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    /* display: flex; */
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #181818;
+    margin-left: 4%;
+
 }
 
+.core_services_heading > h1{
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 4%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.24px;
+    margin: auto;
+    margin-bottom: 2%;
+    /* color: #991642; */
+
+}
+.agent_banking{
+    margin-left: 4%;
+    align-items: center;
+    text-align: center;
+    /* margin: auto; */
+}
 .agent_banking > h1{
-    width: 100%;
+    width: 90%;
     height: 100%;
-    font-size: 32px;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.24px;
+    margin: auto;
+    color: #4F1699;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 .agent_banking > p{
     width: 100%;
     height: 100%;
     padding-right: 6%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #181818;
+    
 }
 
 .agent_banking_img{
     width: 100%;
     height: 100%;
-    left: 0%;
-    top: 0%;
-    margin-left: -4%;
+    left: 0px;
+    top: 2713px;
+    
+    background: rgba(241, 228, 255, 0.7);
+    border-radius: 6.72043px;
     
   }
 
+  .agent_banking_mobile_img > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 16%;
+    padding-bottom: 10%;
+    margin-left: 9%;
+
+}
+ 
+
   .agent_banking_img > img{
-      padding-top: 3%;
-      margin-left: 0%;
-      width: 100%;
-     height: 100%;
+    display: none;
+  }
+
+  #page1_spacing{
+      /* background-color: brown; */
+      margin: 0%;
+      padding: 0%;
   }
 
   .fast_trans{
     width: 100%;
     height: 100%;
-    left: 0%;
-    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 12%;
+    background: rgba(241, 228, 255, 0.7);
+    border-radius: 6.72043px;
 }
 
 .fast_trans > img{
-    width: 100%;
+    width: 80%;
     height: 100%;
     margin: auto;
-    padding-top: 0%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  .settl_wallets{
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      padding-top: 25%;
   }
 
 .settl_wallets > h1{
-    width: 96%;
+    width: 70%;
     height: 100%;
     left: 0px;
     top: 0px;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+     padding-top: 4%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.24px;
+    padding-bottom: 4%;
+    color: #4F1699;
+    margin:auto
+    
   }
 
 .settl_wallets > p{
-    width: 100%;
+    width: 90%;
     height: 100%;
     left: 0px;
     top: 0px;
-    padding-right: 6%;
+    /* padding-right: 3%; */
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    margin: auto;
+    padding-left: 4%;
+    align-items: center;
+    text-align: center;
+    
+    color: #181818;
+    
+  }
+
+  .settl_card{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 25%;
+    margin-bottom: 20%;
   }
 
 .settl_card > h1{
-    width: 100%;
+    width:90%;
     height: 100%;
     left: 0px;
     top: 0px;
-    padding-right: 6%;
+    /* padding-right: 6%; */
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    /* or 123% */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.24px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #4F1699;
+    
 }
 
 .settl_card > p{
-    width: 100%;
+    width: 80%;
     height: 100%;
     left: 0px;
     top: 0px;
-    padding-right: 6%;
+    /* padding-right: 6%; */
+    margin: auto;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #181818;
 }
 .hand_card{
-    width: 90%;
+    width: 100%;
     height: 100%;
     left: 777px;
     top: 3855px;
@@ -169,60 +422,144 @@ and (max-device-width : 480px) {
 
 .get_update > h1{
     width: 100%;
-    height: 107%;
-    left: 0px;
-    top: 0px;
-    margin-top: 13%;
-   
+    height: 100;
+    padding-top: 10%;
+    padding-bottom: 50%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+    margin: auto;
+}
+.get_update > button{
+    width: 183px;
+    height: 40px;
+    left: 96px;
+    top: 6715px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    align-items: center;
+    letter-spacing: 0.24px;
+    color: #4F1699;
+    
+}
+
+.card_heading{
+    padding-top: 25%;
+    align-items: center;
+    text-align: center;
 }
 
 .card_heading > h1{
     width: 90%;
     height: 100%;
-    margin-left: 0%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #4F1699
 }
 
 .card_heading > p{
     width: 100%;
     height: 100%;
-    margin-left: -3%;
-    padding-right: 6%;
+    padding-top: 4%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: #181818;
+    
 }
 
 #card_dis {
     width: 100%;
     height: 300px;
-
 }
 
 #container_top{
-    margin-top: -45%;
+    margin-top: -75%;
 }
+.card_content > h4{
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+    
 .card_content > p{
-    width: 95%;
+    width: 80%;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+.footer_section{
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: 1%; */
 }
 
 .footer_section > p{
-    width: 100%;
+    width: 91%;
     height: 100%;
-    left: 0;
-    top: 0;
-    
+    font-size: 16.5px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #18191F;
 }
 .footer_section > ul {
     display: inline-flex;
     list-style: none;
     margin-left: -20%;
-    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
     margin-bottom: 5%;
+    /* margin: auto; */
    }
 
-.footer_section > ul > li {
+/* .footer_section > ul > li {
     margin-right: 15%;
- }
+    
+ } */
 
  #page_heaght{
-     height:400px;
+     height:500px;
  }
  .modal-dialog .modal-content {
     border: 0;

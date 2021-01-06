@@ -326,7 +326,7 @@
       margin-top: 28%;
       /* margin-right: auto; */
   }
-.core_services_heading  > button{
+.core_services_heading  > div > button{
     width: 177px;
     height: 28px;
     left: 815px;
@@ -925,8 +925,7 @@ input + label {
     color: #000000;
   }
   
-  /* input:focus + label {
-   
-    
-  } */
+ .agent_banking_mobile_img > img{
+     display: none;
+ }
   

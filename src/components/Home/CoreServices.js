@@ -16,7 +16,7 @@ const CoreServices = () => {
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation  animateIn="fadeInUp" animateOnce={true} delay={100}>
-                <div className="row row_top2">
+                <div className="row row_top2 mobile_row">
                     <div className="col-md-6">
                         <div className="fast_trans">
                              <img className="" src="images/primarywallet.svg" alt="primary wallet"/>
@@ -29,7 +29,10 @@ const CoreServices = () => {
                     </div>
                     <div className="col-md-6">
                         <div className="core_services_heading">
-                            <button>FAST TRANSACTIONS</button>
+                            <div className="core_services_mobile">
+                             <button>FAST TRANSACTIONS</button>
+                            </div>
+                          
                             <h1>Send & Request money easily</h1>
                             <p>Send and receive money from your friends in seconds. Choose from your contact list, specify the amount and voila!  Send and receive money from your friends in seconds. Choose from your contact list, specify the amount and voila! </p>
                         </div>

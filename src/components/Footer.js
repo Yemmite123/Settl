@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Footer = () => {
     return (
         <div className="view">
-            <div id="page_heaght" className="container-fluid">
+            <div id="page_heaght" className="container-fluid footer_hgt">
                 <div className="row footer_top">  
                     <div className="col-md-12">
                         <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={100}>

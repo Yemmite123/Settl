@@ -21,8 +21,8 @@ render() {
                     <div className="col-md-12">
                         <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={100}>
                             <div className="text-center get_update">
-                                <h1>Get Ready for a frictrion-free banking experience like never before!</h1>
-                                <button onClick={this.toggle}>Keep me updated</button>
+                                <h1>Settl for more with smooth, safer mobile banking experience like never before</h1>
+                                <button onClick={this.toggle}>Get Early Update</button>
                             </div>
                         </ScrollAnimation>
                     </div>
@@ -49,8 +49,13 @@ render() {
             </div>
 
             <div className="group">
-              <input type="tel" placeholder="Phone Number" id="Phone Number" required/>
+              <input type="number" placeholder="Phone Number" id="Phone Number" required/>
               <label htmlFor="phone">Phone Number</label>
+            </div>
+
+            <div className="group">
+              <input type="email" placeholder="Email Address" id="Email" required/>
+              <label htmlFor="phone">Email Address</label>
             </div>
             <div className="group">
              <button type="submit">Get lunch invite</button>
