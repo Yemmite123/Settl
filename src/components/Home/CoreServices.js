@@ -8,10 +8,9 @@ const CoreServices = () => {
                 <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={100}>
                     <div className="text-center core_services">
                         <center><img src="images/checkerIcon.svg" alt="checker icon"/></center>
-                            <h1>Our Core Services</h1>
+                            <h1>Mobile banking created for convenience</h1>
                             <p className="">
-                            Welcome to a better kind of mobile banking experience. Send, 
-                            request and manage your money in one easy to use mobile app
+                            Ditch the old, stressful system of mobile banking. Settl is designed for your convenience. Manage your money properly with the Settl app. 
                             </p>
                     </div>
                 </ScrollAnimation>
@@ -22,19 +21,19 @@ const CoreServices = () => {
                              <img className="" src="images/primarywallet.svg" alt="primary wallet"/>
                         </div>
                         <ScrollAnimation animateIn="zoomIn" animateOnce={true}>
-                            <div className="social_friend">
+                            {/* <div className="social_friend">
                                 <img src="images/social.svg" alt="social friend"/>
-                            </div>
+                            </div> */}
                         </ScrollAnimation>
                     </div>
                     <div className="col-md-6">
                         <div className="core_services_heading">
-                            <div className="core_services_mobile">
-                             <button>FAST TRANSACTIONS</button>
+                            <div className="core_services_DST core_services_mobile">
+                             <img src="images/Sterling pro.svg" alt="FAST TRANSACTIONS"/>  <p>FAST TRANSACTIONS</p>
                             </div>
                           
-                            <h1>Send & Request money easily</h1>
-                            <p>Send and receive money from your friends in seconds. Choose from your contact list, specify the amount and voila!  Send and receive money from your friends in seconds. Choose from your contact list, specify the amount and voila! </p>
+                            <h1>Send & Request money easily </h1>
+                            <p>Settl for swift transactions, nothing else. Send and receive money from friends, family members, customers, and business partners within seconds. Just choose your contact, specify the amount, and send.     </p>
                         </div>
                     </div>
                 </div>

@@ -203,25 +203,25 @@
     color: #AC8BD3;
   }
   .hero_heading > h1{
-    width: 405px;
+    width: 611px;
     height: 152px;
     left: 89px;
-    top: 245px;
+    top: 250px;    
     font-family: Euclid Circular A;
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 58px;
     line-height: 76px;
-    /* or 119% */
+    /* or 131% */ 
     display: flex;
     align-items: center;
-    letter-spacing: 0.24px;
-    color: #4F1699;   
+    letter-spacing: 0.24px; 
+    color: #4F1699;
     margin-top: 2%;  
   }
 
   .hero_heading > p{
-    width: 519px;
+    width: 570px;
     height: 69px;
     left: 93px;
     top: 415px;
@@ -232,7 +232,7 @@
     line-height: 39px;
     /* or 195% */
     letter-spacing: 0.24px;
-    color: #000000; 
+    color: #000000;
     margin-top: 2%; 
   }
   .hero_heading > button{
@@ -306,10 +306,10 @@
     margin-top: 2%;  
   }
   .core_services > p{
-    width: 681px;
-    height: 70px;
-    left: 380px;
-    top: 1024px;
+    width: 720px;
+    height: 86px;
+    left: 360px;
+    top: 1019px;
     font-family: Euclid Circular A;
     font-style: normal;
     font-weight: 300;
@@ -326,7 +326,7 @@
       margin-top: 28%;
       /* margin-right: auto; */
   }
-.core_services_heading  > div > button{
+/* .core_services_heading  > div > span{
     width: 177px;
     height: 28px;
     left: 815px;
@@ -342,8 +342,35 @@
     letter-spacing: 1.26px;
     color: #4F1699;
     margin-bottom: 2%;
+} */
+
+.core_services_DST{
+    width: 100%;
+    height: 100%;
+}
+.core_services_DST{
+    display: inline-flex;
 }
 
+.core_services_mobile > img{
+ margin-right: 1.5%;
+}
+
+.core_services_DST > p{
+
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 1.26px;
+    margin-top: 2%;
+    color: #000000;
+   
+    
+}
 .core_services_heading > h1{
     left: 815px;
     top: 1443px;
@@ -377,7 +404,7 @@
     height: 702px;
     left: 93px;
     top: 1212px;
-    background: rgba(241, 228, 255, 0.7);
+    background: rgba(241, 248, 255, 0.5);
     border-radius: 10px;
 }
 .fast_trans > img{
@@ -458,7 +485,7 @@
     height: 585px;
     left: 741px;
     top: 2115px;
-    background: rgba(241, 228, 255, 0.7);
+    background: rgba(241, 228, 255, 0.5);
     border-radius: 10px;
   }
 
@@ -542,7 +569,7 @@
 }
 .settl_card > h1{
     width: 467.65px;
-    height: 85px;
+    /* height: 100; */
     left: 93.15px;
     top: 4079px;
     font-family: Euclid Circular A;
@@ -575,7 +602,7 @@
     height: 702px;
     left: 777px;
     top: 3855px;
-    background: rgba(241, 228, 255, 0.7);
+    background: rgba(241, 228, 255, 0.5);
     border-radius: 10px;
 }
 .hand_card > img{
@@ -615,19 +642,22 @@
     margin: auto;
   }
   .card_heading > p{
-    width: 609px;
+    width: 758px;
     height: 69px;
-    left: 415px;
-    top: 4808px;
+    left: 341px;
+    top: 4803px;
+    
     font-family: Euclid Circular A;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 34px;
     /* or 192% */
+    
     text-align: center;
     letter-spacing: 0.24px;
     font-feature-settings: 'liga' off;
+    
     color: #000000;
     margin: auto;
   }
@@ -780,7 +810,7 @@
     border: 0;
     box-shadow: none;
     width: 728px;
-    height: 605px;
+    height: 705px;
     background: #FDF8FD;
     /* margin-left: -17%; */
     border-radius: 24px;

@@ -24,8 +24,8 @@ export class HeroSection extends Component {
                           <span className="coming_soon"> COMING SOON</span>
                       </div>
                     <div className="hero_heading">
-                      <h1>Move your money freely</h1>
-                      <p>From spending on daily needs to saving for the future, Settl helps you move and manage your money without stress. </p>
+                      <h1>Easy, Fast, Secure Payment in one app </h1>
+                      <p>From spending on daily needs to saving for the future, Settl helps you move and manage your money without stress.  </p>
                       <button onClick={this.toggle}>Get Early Update</button>
                     </div>
                 </div>

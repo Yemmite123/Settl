@@ -12,7 +12,12 @@ and (max-device-width : 480px) {
     margin-top: 38%;
     margin-left: 4%;
 }
-
+.core_services_DST{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
 #HeroSection{
     background-image: url('images/Full Bg.png'); 
     background-repeat: no-repeat; 
@@ -262,7 +267,7 @@ and (max-device-width : 480px) {
     left: 0px;
     top: 2713px;
     
-    background: rgba(241, 228, 255, 0.7);
+    /* background: rgba(241, 228, 255, 0.7); */
     border-radius: 6.72043px;
     
   }
@@ -294,7 +299,7 @@ and (max-device-width : 480px) {
     margin: 0%;
     padding: 0%;
     margin-top: 12%;
-    background: rgba(241, 228, 255, 0.7);
+    /* background: rgba(241, 228, 255, 0.7); */
     border-radius: 6.72043px;
 }
 
@@ -381,7 +386,8 @@ and (max-device-width : 480px) {
     letter-spacing: 0.24px;
     padding-top: 4%;
     padding-bottom: 4%;
-    color: #4F1699;
+    /* color: #e90f3e; */
+    justify-content: center;
     
 }
 
@@ -410,7 +416,7 @@ and (max-device-width : 480px) {
     height: 100%;
     left: 777px;
     top: 3855px;
-    background: rgba(241, 228, 255, 0.7);
+    /* background: rgba(241, 228, 255, 0.7); */
     border-radius: 10px;
 }
 .hand_card > img{
@@ -487,7 +493,7 @@ and (max-device-width : 480px) {
     align-items: center;
     text-align: center;
     margin: auto;
-    color: #181818;
+    /* color: #b41313; */
     
 }
 
@@ -497,7 +503,7 @@ and (max-device-width : 480px) {
 }
 
 #container_top{
-    margin-top: -75%;
+    margin-top: -45%;
 }
 .card_content > h4{
     font-family: Euclid Circular A;

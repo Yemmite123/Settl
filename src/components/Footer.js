@@ -9,9 +9,9 @@ const Footer = () => {
                     <div className="col-md-12">
                         <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={100}>
                             <div className="text-center footer_section">
-                                <p>©2020 Settl.</p>
+                                <p> ©2020 Settl.</p>
                                 <p>All product names, logos, and brands are property of their respective owners.</p>
-                                <p>All company, product and service names used in this website are for identification purposes only.</p>
+                                <p>All company, product and service names used in this website are for identification purposes only. </p>
                                 <p>Use of these names, logos, and brands does not imply endorsement</p>
                                 <ul>
                                 <li><img src="images/facebook.svg" alt="social handles"/></li>

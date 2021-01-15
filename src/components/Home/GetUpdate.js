@@ -22,7 +22,7 @@ render() {
                         <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={100}>
                             <div className="text-center get_update">
                                 <h1>Settl for more with smooth, safer mobile banking experience like never before</h1>
-                                <button onClick={this.toggle}>Get Early Update</button>
+                                <button onClick={this.toggle}>Keep me updated</button>
                             </div>
                         </ScrollAnimation>
                     </div>

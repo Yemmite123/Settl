@@ -9,9 +9,12 @@ const AgentBanking = () => {
                     <div className="row row_top2">  
                         <div className="col-md-6">
                             <div className="agent_banking">
-                                <button>AGENT BANKING</button>
+                                <div className="core_services_DST core_services_mobile">
+                                   <img src="images/Sterling pro.svg" alt="AGENT BANKING"/>  <p>AGENT BANKING</p>
+                                </div>
                                 <h1>Affordable banking in your neighbourhood</h1>
-                                <p>Send and receive money from your friends in seconds. Choose from your contact list, specify the amount and voila!  Send and receive money from your friends in seconds. Choose from your contact list, specify the amount and voila! </p>
+                                <p>Join Settl’s affordable financial inclusion service and become the bank in your neighbourhood. Earn money every time you help customers to pay bills, load airtime and withdraw and deposit money.   </p>
+                                
                             </div>
                         </div>
                         <div className="col-md-6">

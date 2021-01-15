@@ -10,8 +10,8 @@ const FeatureCards = () => {
                         <div className="row row_top2">  
                             <div className="col-md-12">
                             <div className="text-center card_heading">
-                                <h1>We’re making sure everything is in place</h1>
-                                <p>Welcome to a better kind of mobile banking experience.</p>
+                                <h1>Smooth and safe transactions in a single app</h1>
+                                <p>Everything you need for smooth, safe and secure banking at your fingertips. Be your own financial manager with the assistance of a PCI-certified mobile banking app. </p>
                             </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ const FeatureCards = () => {
                             <div className="card-body card_content">
                                 <img className="" src="images/featureIcon1.svg" alt="featureIcon1"/>
                                 <h4 className="card-title">User friendly Interface</h4>
-                                <p className="card-text">Your deposits are protected by the Nigerian Deposit Insurance Corporation.</p>
+                                <p className="card-text">Request. Save. Send. Manage your money without hassle through an easy-to-use mobile app. </p>
                             </div>
                             </div>
                         </ScrollAnimation>
@@ -36,8 +36,8 @@ const FeatureCards = () => {
                             <div className="card card_adjustment" id="card_dis">
                             <div className="card-body card_content">
                                 <img className="" src="images/featureIcon2.svg" alt="featureIcon2"/>
-                                <h4 className="card-title">Security</h4>
-                                <p className="card-text">PCI-certified, auditor certified, PCI Service Provider Level 1 - the highest certification level</p>
+                                <h4 className="card-title">Safe and secure </h4>
+                                <p className="card-text">Be assured of more than ease with every transaction. Settl is PCI-certified, and the NDIC secures deposits to your Settl wallets. </p>
                             </div>
                             </div>
                         </ScrollAnimation>
@@ -47,8 +47,8 @@ const FeatureCards = () => {
                             <div className="card card_adjustment" id="card_dis">
                             <div className="card-body card_content">
                                 <img className="" src="images/featureIcon3.svg" alt="featureIcon3"/>
-                                <h4 className="card-title">Complete Eco-systeme</h4>
-                                <p className="card-text card_para">PCI-certified, auditor certified, PCI Service Provider Level 1 - the highest certification level</p>
+                                <h4 className="card-title">Complete eco-system</h4>
+                                <p className="card-text card_para">Manage your money, transact online and physically in different currencies, anytime and anywhere. </p>
                             </div>
                             </div>
                         </ScrollAnimation>
