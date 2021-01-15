@@ -8,6 +8,11 @@ and (max-device-width : 480px) {
      padding: 0%;
  } */
 
+ .navbar.scroll {
+    background: #FFFFFF;
+    box-shadow: 10px 15px 30px rgba(196, 196, 196, 0.15);   
+    /* height: 100%;  */
+  }
  .row_top{
     margin-top: 38%;
     margin-left: 4%;

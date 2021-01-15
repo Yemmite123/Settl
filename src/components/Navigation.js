@@ -16,7 +16,7 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <MDBNavbar color="" fixed="top" dark expand="md" scrolling transparent>
+      <MDBNavbar color="scroll" fixed="top" dark expand="md" scrolling transparent>
       <div id="page_spacing" className="container-fluid">
         <MDBNavbarBrand>
         <img src="images/whitelogologo.svg" alt="logo"/>

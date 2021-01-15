@@ -140,6 +140,13 @@
   .navbar {
     font-weight: 300;
     box-shadow: none;
+    
+  }
+
+  .navbar.scroll {
+    background: #FFFFFF;
+    box-shadow: 10px 15px 30px rgba(196, 196, 196, 0.15);   
+    height: 111px; 
   }
   #nav_btn{
     width: 147px;
